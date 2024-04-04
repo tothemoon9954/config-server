@@ -8,8 +8,10 @@ spring:
       server:
 
         git:
-          uri: /home/nhnacademy/config-server/.git
+#          uri: /home/nhnacademy/config-server/.git
+          uri: https://github.com/tothemoon9954/config-server.git
           default-label: main
+
   application:
     name: config-server
 
