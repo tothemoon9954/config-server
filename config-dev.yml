@@ -10,10 +10,4 @@ spring:
 
 
 encrypt:
-  #  key: asJ@iojsdfnvioJ233j321359jsvjiasdofjEIQNcz
-  #  79ce2b15c230b5fb6e3624f8f98c97f9206ba02ea6997c394a4417b5494df06b
-
   key: oijiosndknjcvcijehi2@jiasdjjn23sadjcnchx
-#  461bf1133b4ff05f9964f42baddd4c470ba9cd12ac705eb55d122086b742aaed
-
-#{cipher}
