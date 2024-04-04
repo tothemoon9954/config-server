@@ -2,8 +2,8 @@ server:
   port: 9999
 spring:
   application:
-    name: {cipher}6b0382329f5c34f00512c0ee5feb136e9657b75a22292bae702ed3a75687aa45
+    name: config-server
   cloud:
     config:
-      profile: dev
+      profile: {cipher}
 
