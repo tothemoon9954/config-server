@@ -23,3 +23,7 @@ S
 #.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
 4
 mvnw,5/d/5d837c4ed85ecaaf932c506e80ff5d7b9f3d590d
+@
+configServer.yml,d/1/d1c74bd82aea45fe5977a6e139f80824a2c9aea4
+>
+config-dev.yml,a/4/a48b248c72ba9c9579ed4ac1aff389aa7b62b993
