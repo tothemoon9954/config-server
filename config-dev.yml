@@ -8,3 +8,6 @@ spring:
       profile: dev
 
 
+
+encrypt:
+  key: Qdjkaoicvn@jidflkdf332asdvlk039nnkd84kjcvnjasdvmkaewoijsdf
