@@ -1,0 +1,24 @@
+server:
+  port: 8888
+
+
+spring:
+  cloud:
+    config:
+      server:
+
+        git:
+          uri: /home/nhnacademy/config-server/.git
+          default-label: main
+  application:
+    name: config-server
+
+# actuator 설정
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    shutdown:
+      enabled: true
