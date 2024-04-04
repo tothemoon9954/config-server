@@ -5,8 +5,7 @@ spring:
     name: config-server
   cloud:
     config:
-      profile: {cipher}461bf1133b4ff05f9964f42baddd4c470ba9cd12ac705eb55d122086b742aaed
-
+      profile: '{cipher}461bf1133b4ff05f9964f42baddd4c470ba9cd12ac705eb55d122086b742aaed'
 
 
 encrypt:
