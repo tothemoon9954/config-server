@@ -7,7 +7,5 @@ spring:
     config:
       profile: dev
 
-
-
 encrypt:
-  key: djkaoicvn@jidflkdf332asdvlk039nnkd84kjcvnjasdvmkaewoijsdf
+  key: asdlfkjalsdfjioasjdfoijaosnveioano2lkjasdfoi@IOjsdfoiasdfonoinsgd
