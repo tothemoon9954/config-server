@@ -24,3 +24,6 @@ management:
   endpoint:
     shutdown:
       enabled: true
+
+encrypt:
+  key: asdlfkjalsdfjioasjdfoijaosnveioano2lkjasdfoi@IOjsdfoiasdfonoinsgd
