@@ -13,7 +13,7 @@ spring:
           search-paths: resources
 
   application:
-    name: server
+    name: configServer
 
 management:
   endpoints:
