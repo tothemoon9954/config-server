@@ -11,7 +11,7 @@ spring:
 #          uri: /home/nhnacademy/config-server/.git
           uri: https://github.com/tothemoon9954/config-server.git
           default-label: main
-          search-paths: src/main/resources
+          search-paths: src/main/resources/test
 
   application:
     name: server
@@ -28,7 +28,6 @@ management:
 
 encrypt:
   key: asdlfkjalsdfjioasjdfoijaosnveioano2lkjasdfoi@IOjsdfoiasdfonoinsgd
-
 
 
 
