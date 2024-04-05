@@ -11,9 +11,10 @@ spring:
 #          uri: /home/nhnacademy/config-server/.git
           uri: https://github.com/tothemoon9954/config-server.git
           default-label: main
+          search-paths: src/main/resources
 
   application:
-    name: config-server
+    name: server
 
 # actuator 설정
 management:
