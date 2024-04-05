@@ -8,9 +8,9 @@ spring:
       server:
 
         git:
-          uri: https://github.com/tothemoon9954/config-server.git
+          uri: https://github.com/tothemoon9954/FileRepo.git
           default-label: main
-          search-paths: src/main/resources
+          search-paths: resources
 
   application:
     name: server
@@ -26,27 +26,4 @@ management:
 
 encrypt:
   key: asdlfkjalsdfjioasjdfoijaosnveioano2lkjasdfoi@IOjsdfoiasdfonoinsgd
-
-
-#  {"name":"config",
-#   "profiles":["dev"],
-#   "label":null,
-#   "version":"3f4e40e976b823e7cf13257c501b6341ccb7e56b",
-#   "state":null,
-#   "propertySources":[{"name":"https://github.com/tothemoon9954/config-server.git/src/main/resources/config-dev.yml",
-#                       "source":{"server.port":9999,"spring.application.name":"config-server",
-#                                 "test.text":"test code","spring.cloud.config.profile":"dev"}},
-#
-#                      {"name":"https://github.com/tothemoon9954/config-server.git/src/main/resources/application-dev.properties",
-#                       "source":{"spring.application.name":"properties test"}},
-#
-#                      {"name":"https://github.com/tothemoon9954/config-server.git/src/main/resources/application.yml",
-#                       "source":{"server.port":8888,
-#                                 "spring.cloud.config.server.git.uri":"https://github.com/tothemoon9954/config-server.git",
-#                                 "spring.cloud.config.server.git.default-label":"main",
-#                                 "spring.cloud.config.server.git.search-paths":"src/main/resources",
-#                                 "spring.application.name":"server",
-#                                 "management.endpoints.web.exposure.include":"*",
-#                                 "management.endpoint.shutdown.enabled":true,
-#                                 "encrypt.key":"asdlfkjalsdfjioasjdfoijaosnveioano2lkjasdfoi@IOjsdfoiasdfonoinsgd"}}]}
 
