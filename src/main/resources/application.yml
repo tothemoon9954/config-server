@@ -2,16 +2,33 @@ server:
   port: 8888
 
 
+#spring:
+#  cloud:
+#    config:
+#      server:
+#
+#        git:
+##          uri: /home/nhnacademy/config-server/.git
+#          uri: https://github.com/tothemoon9954/config-server.git
+#          default-label: main
+#          search-paths: src/main/resources/test
+#
+
 spring:
   cloud:
     config:
       server:
-
         git:
-#          uri: /home/nhnacademy/config-server/.git
-          uri: https://github.com/tothemoon9954/config-server.git
-          default-label: main
-          search-paths: src/main/resources/test
+          repositories:
+            config-repo-1:
+              uri: https://github.com/tothemoon9954/config-server.git
+              default-label: main
+              search-paths: src/main/resources/test
+            config-repo-2:
+              uri: https://github.com/tothemoon9954/config-server.git
+              default-label: main
+              search-paths: src/main/resources
+
 
   application:
     name: server
