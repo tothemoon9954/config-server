@@ -1,8 +1,6 @@
 
 9
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-Y
-)src/main/resources/application.properties,0/6/06f65155ec73600b9fc5c4dc2883d4bb84d8e284
 
 Q.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d,1/0/10a03f31c4dce92cb371e761ce9429428bb6c176
 ]
@@ -23,7 +21,9 @@ S
 #.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
 4
 mvnw,5/d/5d837c4ed85ecaaf932c506e80ff5d7b9f3d590d
-@
-configServer.yml,d/1/d1c74bd82aea45fe5977a6e139f80824a2c9aea4
 >
 config-dev.yml,a/4/a48b248c72ba9c9579ed4ac1aff389aa7b62b993
+B
+test-dev.properies,8/0/8002da564fd48ef41a6b71c1b8fa2274c05a6b56
+J
+application-dev.properties,5/8/58a5abdecf96f391e05e5db5209964ef89066e7a
