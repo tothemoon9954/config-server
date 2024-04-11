@@ -23,6 +23,8 @@ management:
     shutdown:
       enabled: true
 
-#encrypt:
-#  key: ${encrypt.key}
+encrypt:
+  key: ${encrypt.key}
 
+decrypt:
+  key: ${encrypt.key}
