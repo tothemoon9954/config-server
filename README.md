@@ -32,3 +32,9 @@
 
 ### 복호화
 ![복호화](/image/복호화.png)
+
+
+### file repo를 private로 변환할 경우
+1. git 계정의 settings -> SSH and GPG Keys -> New SSH Key
+2. 이름은 마음대로 정하고 value는 터미널에서 
+ cat 키파일명.pub을 해서 ssa부터 끝까지 전부다 등록
