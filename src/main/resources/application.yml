@@ -2,17 +2,24 @@ server:
   port: 8888
 
 spring:
+  application:
+    name: config-server
   cloud:
     config:
       server:
-
         git:
-          uri: https://github.com/tothemoon9954/FileRepo.git
-          default-label: main
-          search-paths: resources
+          uri: git@github.com:tothemoon9954/FileRepo.git      #git에서 ssh 주소 가져오기
+          ignore-local-ssh-settings: true
+          private-key: |        #ssh-keygen -M PEM -t rsa -b 4096 -C "Github 계정 이메일" -f 키파일명  // -M을 -m로 쓰든가 제거해서 입력, 키파일명은 자기가 하고 싶은 이름으로
+            -----BEGIN OPENSSH PRIVATE KEY-----     
+           
+            -----END OPENSSH PRIVATE KEY-----  
 
-  application:
-    name: config-server
+          # cat 키파일명
+
+          timeout: 4
+          default-label: main      # branch
+          search-paths: resources   # 만약 repo의 폴더 안에 설정파일을 넣어놨으면 이렇게 경로 지정
 
 management:
   endpoints:
@@ -23,8 +30,7 @@ management:
     shutdown:
       enabled: true
 
-encrypt:
+encrypt:      #이건 intellij에서 환경변수 설정한것
   key: ${encrypt.key}
 
-decrypt:
-  key: ${encrypt.key}
+  # intellij 환경변수 설정하는 법 edit-> modify options -> environment variables
