@@ -2,7 +2,7 @@
 
 
 
-config server 관리
+## config server 관리
 
 1. ServerApplication에 @EnableConfigServer 추가
 2. 파일 경로, branch, github에서 ssh 주소 가져오기
@@ -10,7 +10,7 @@ config server 관리
 
 
 
-server pom에 추가해놔야 할것들
+## server pom에 추가해놔야 할것들
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
