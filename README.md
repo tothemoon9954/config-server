@@ -28,4 +28,4 @@
 		</dependency>
 
 ### 암호화
-![암호화](/home/nhnacademy/config-server/image/암호화.png)
+![암호화](/image/암호화.png)
