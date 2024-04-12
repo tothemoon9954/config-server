@@ -28,4 +28,4 @@ server pom에 추가해놔야 할것들
 		</dependency>
 
 암호화
-![암호화][/image/암호화.png]
+![암호화](/image/암호화.png)
