@@ -26,3 +26,6 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-config-server</artifactId>
 		</dependency>
+
+### 암호화
+[암호화](/home/nhnacademy/config-server/image/암호화.png)
