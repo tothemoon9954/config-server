@@ -26,6 +26,3 @@ server pom에 추가해놔야 할것들
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-config-server</artifactId>
 		</dependency>
-
-암호화
-![암호화](/image/암호화.png)
